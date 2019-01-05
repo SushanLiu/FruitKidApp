@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    // Setting
+    <item android:id="@+id/opt2" android:title="2 options"></item>
+    <item android:id="@+id/opt3" android:title="3 options"></item>
+    <item android:id="@+id/opt4" android:title="4 options"></item>
+</menu>

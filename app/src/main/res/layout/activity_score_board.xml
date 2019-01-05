@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreBoard">
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="126dp"
+        android:text="High Score:18"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Button
+        android:id="@+id/btn_palyAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="219dp"
+        android:text="Play Again"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+</RelativeLayout>
